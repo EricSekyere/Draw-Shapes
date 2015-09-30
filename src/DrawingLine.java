@@ -4,9 +4,10 @@ import java.awt.Rectangle;
 
 /**
  * 
- * @author Eric Sekyere A DrawingLine is an extension of the DrawingObject
- *         abstract class. It is used to store the details pertaining to a line
- *         for the drawing program.
+ * @author Eric Sekyere 
+ * A DrawingLine is an extension of the DrawingObject
+ * abstract class. It is used to store the details pertaining to a line
+ * for the drawing program.
  */
 
 public class DrawingLine extends DrawingObject {

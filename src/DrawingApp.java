@@ -7,7 +7,7 @@ import javax.swing.event.*;
 
 /*****************************************************
  *
- *
+ *@author Eric Sekyere
  * This program provides the View and Controller portions of the Drawing Object
  * program.
  *

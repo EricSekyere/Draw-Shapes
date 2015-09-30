@@ -4,9 +4,10 @@ import java.awt.Rectangle;
 
 /**
  * 
- * @author Eric Sekyere A DrawingEllipse is an extension of the DrawingObject
- *         abstract class. It is used to store the details pertaining to an
- *         ellipse for the drawing program.
+ * @author Eric Sekyere 
+ * A DrawingEllipse is an extension of the DrawingObject
+ * abstract class. It is used to store the details pertaining to an
+ * ellipse for the drawing program.
  */
 
 public class DrawingEllipse extends DrawingObject {
