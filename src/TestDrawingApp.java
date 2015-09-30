@@ -1,9 +1,8 @@
 
 
+
 import java.awt.*;
 import java.util.*;
-import java.io.*;
-
 import java.awt.font.*;
 import java.awt.image.*;
 import java.awt.geom.*;
@@ -12,15 +11,15 @@ import java.text.*;
 
 
 /**
- * This class is the driver (client class) for Assignment #5,
+ * This class is the driver (client class) for The Drawing App
  * it tests the subclasses of DrawingObject...
  */
-class a5
+class TestDrawingApp
 {
    static public void main(String[] args)
    {
-      // For aquiring input
-      Scanner in = new Scanner(System.in);
+      // For acquiring input
+      Scanner input = new Scanner(System.in);
 
       while(true)
       {
@@ -31,7 +30,7 @@ class a5
          System.out.println("   'exit' to exit:");
          System.out.print("> ");
 
-         String command = in.nextLine();
+         String command = input.nextLine();
          System.out.println("");
 
          boolean testall = false;
@@ -481,6 +480,7 @@ class a5
          }
 
          System.out.println("");
+         
       }
    }
 
@@ -522,16 +522,17 @@ class a5
       public debugGraphics2D() {}
 
       public void addRenderingHints(Map<?,?> hints) {}
-      public void	clearRect(int x, int y, int width, int height) {}
+      public void clearRect(int x, int y, int width, int height) {}
       public void clip(Shape s) {}
       public void clipRect(int x, int y, int width, int height) {}
       public void copyArea(int x, int y, int width, int height, int dx, int dy) {}
-      public Graphics create() { return null; }
+      public 	  Graphics create() { return null; }
       public void dispose() {}
       public void draw(Shape s) {}
       public void drawArc(int x, int y, int width, int height, int startAngle, int arcAngle) {}
       public void drawGlyphVector(GlyphVector g, float x, float y) {}
       public void drawImage(BufferedImage img, BufferedImageOp op, int x, int y) {}
+      
       public boolean drawImage(Image img, int x, int y, Color bgcolor, ImageObserver observer) { return false; }
       public boolean drawImage(Image img, int x, int y, ImageObserver observer) { return false; }
       public boolean drawImage(Image img, int x, int y, int width, int height, Color bgcolor, ImageObserver observer) { return false; }
@@ -539,21 +540,22 @@ class a5
       public boolean drawImage(Image img, int dx1, int dy1, int dx2, int dy2, int sx1, int sy1, int sx2, int sy2, Color bgcolor, ImageObserver observer) { return false; }
       public boolean drawImage(Image img, int dx1, int dy1, int dx2, int dy2, int sx1, int sy1, int sx2, int sy2, ImageObserver observer) { return false; }
       public boolean drawImage(Image img, AffineTransform xform, ImageObserver obs) { return false; }
-      public void drawPolygon(int[] xPoints, int[] yPoints, int nPoints) {}
-      public void drawPolyline(int[] xPoints, int[] yPoints, int nPoints) {}
+      
+      public void 	drawPolygon(int[] xPoints, int[] yPoints, int nPoints) {}
+      public void 	drawPolyline(int[] xPoints, int[] yPoints, int nPoints) {}
       public void	drawRenderableImage(RenderableImage img, AffineTransform xform) {}
       public void	drawRenderedImage(RenderedImage img, AffineTransform xform) {}
-      public void drawRoundRect(int x, int y, int width, int height, int arcWidth, int arcHeight) {}
+      public void 	drawRoundRect(int x, int y, int width, int height, int arcWidth, int arcHeight) {}
       public void	drawString(AttributedCharacterIterator iterator, float x, float y) {}
       public void	drawString(AttributedCharacterIterator iterator, int x, int y) {}
       public void	drawString(String str, float x, float y) {}
       public void	drawString(String str, int x, int y) {}
       public void	fill(Shape s) {}
-      public void fillArc(int x, int y, int width, int height, int startAngle, int arcAngle) {}
+      public void 	fillArc(int x, int y, int width, int height, int startAngle, int arcAngle) {}
       public void	fillOval(int x, int y, int width, int height) {}
-      public void fillPolygon(int[] xPoints, int[] yPoints, int nPoints) {}
+      public void 	fillPolygon(int[] xPoints, int[] yPoints, int nPoints) {}
       public void	fillRect(int x, int y, int width, int height) {}
-      public void fillRoundRect(int x, int y, int width, int height, int arcWidth, int arcHeight) {}
+      public void 	fillRoundRect(int x, int y, int width, int height, int arcWidth, int arcHeight) {}
       public Color             getBackground()     { return null; }
       public Shape             getClip()           { return null; }
       public Rectangle         getClipBounds()     { return null; }
@@ -568,23 +570,24 @@ class a5
       public RenderingHints    getRenderingHints() { return null; }
       public Stroke            getStroke()         { return null; }
       public AffineTransform   getTransform()      { return null; }
-      public boolean	hit(Rectangle rect, Shape s, boolean onStroke) { return false; }
+      
+      public boolean hit(Rectangle rect, Shape s, boolean onStroke) { return false; }
       public void	rotate(double theta) {}
       public void	rotate(double theta, double x, double y) {}
       public void	scale(double sx, double sy) {}
       public void	setBackground(Color color) {}
-      public void setClip(int x, int y, int width, int height) {}
-      public void setClip(Shape clip) {}
-      public void setColor(Color c) {}
+      public void 	setClip(int x, int y, int width, int height) {}
+      public void 	setClip(Shape clip) {}
+      public void 	setColor(Color c) {}
       public void	setComposite(Composite comp) {}
-      public void setFont(Font font) {}
+      public void 	setFont(Font font) {}
       public void	setPaint(Paint paint) {}
-      public void setPaintMode() {}
+      public void 	setPaintMode() {}
       public void	setRenderingHint(RenderingHints.Key hintKey, Object hintValue) {}
       public void	setRenderingHints(Map<?,?> hints) {}
       public void	setStroke(Stroke s) {}
       public void	setTransform(AffineTransform Tx) {}
-      public void setXORMode(Color c1) {}
+      public void 	setXORMode(Color c1) {}
       public void	shear(double shx, double shy) {}
       public void	transform(AffineTransform Tx) {}
       public void	translate(double tx, double ty) {}
