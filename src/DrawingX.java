@@ -3,7 +3,8 @@ import java.awt.Graphics2D;
 import java.awt.Rectangle;
 
 /**
- * @author Eric Sekyere
+ * @author Eric Sekyere 
+ * <br/>
  * A DrawingX is an extension of the DrawingObject abstract
  * class. It is used to store the details pertaining to an X-shaped
  * object for the drawing program.

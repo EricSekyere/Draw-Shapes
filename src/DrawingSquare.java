@@ -5,9 +5,9 @@ import java.awt.Rectangle;
 /**
  * 
  * @author Eric Sekyere 
- * A DrawingSquare is an extension of the DrawingObject
+ * <br/>
  * abstract class. It is used to store the details pertaining to a
- * square for the drawing program.
+ *square for the drawing program.
  */
 
 public class DrawingSquare extends DrawingObject {

@@ -4,7 +4,8 @@ import java.awt.geom.*;
 import java.util.*;
 
 /**
- * @author Eric Sekyere
+ * @author Eric Sekyere <br/>
+ * 
  * This abstract class defines the four functions that all of the DrawingObject
  * derived classes must have.
  *

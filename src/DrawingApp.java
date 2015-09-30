@@ -8,15 +8,15 @@ import javax.swing.event.*;
 /*****************************************************
  *
  *@author Eric Sekyere
+ *<br/>
+ *
  * This program provides the View and Controller portions of the Drawing Object
  * program.
  *
  *****************************************************/
 
 class DrawingApp extends JFrame implements ActionListener, MouseInputListener {
-	/**
-	 * 
-	 */
+
 	private static final long serialVersionUID = 1L;
 
 	public static void main(String[] args) {
